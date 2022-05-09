@@ -205,6 +205,8 @@ public class Pathfinder : MonoBehaviour
 			}
 		}
 	}
+
+
 	public void ExpandFrontierGreedyBestFirst(Node _node)
 	{
 		if (_node != null)
@@ -226,6 +228,8 @@ public class Pathfinder : MonoBehaviour
 			}
 		}
 	}
+
+
 	public void ExpandFrontierAStar(Node _node)
 	{
 		if (_node != null)
